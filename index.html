@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width">
+        <title>Título</title>
+        <link rel="stylesheet" href="estilo.css">
+    </head>
+<body>
+
+  <!-- Sign-up form start -->
+  <header class="cabecalho">
+    <div class="divisao">
+      <div class="container1">
+        <h2>WHome</h2>
+        <a class="teste" href="teste1.html">Sobre</a>
+        <a class="teste" href="index.html">Participe</a>
+        <a class="teste" href="teste1.html">Contato</a>
+      </div>
+
+      <div class="redeSocial">
+        <a class="rede-social" href="teste1.html">Insta</a>
+        <a class="rede-social" href="teste1.html">Face</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!--Colocar uma imagem-->
+    <div class="container">
+      <img alt="imagem" class="imagem-inicial"  src="imagem1.svg">
+      <section class="secao-principal">
+        <h1 class="titulo-principal">Teste</h1>
+        <p class="paragrafo1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <div class="divisao-botao">
+            <a class="botao-principal" href="SaibaMais.html">Saiba mais</a>
+          </div>
+      </section>
+    </div>
+
+    <!--Aqui fica o formulário-->
+    <section class="segunda-parte-secao">
+        <img alt="imagem para preencher formulario" class="imagem-do-formulario" src="imagem-formulario1.jpeg">
+          <form class="formulario">
+            <div class="secao-formulario">
+              <div id="nome1" class="grupo">
+                <label for="nomeSobrenome"></label>
+                <input name="nomeSobrenome" type="text" id="nome" required  placeholder="Nome" class="campo">
+                <span class="mensagem-erro"></span>
+              </div>
+
+              <div  id="email1" class="grupo">
+                <label for="email"></label>
+                <input name="email" type="email" id="email"  required placeholder="E-mail" minlength="4" class="campo">
+                <span class="mensagem-erro"></span>
+              </div>
+            </div>
+
+          <div class="secao-formulario">
+            <div id="cpf1" class="grupo">
+              <label for="cpf"></label>
+              <input name="cpf" type="text" id="cpf" required placeholder="CPF" required class="campo" minlength="11" maxlength="14" pattern="\d{3}\.?\d{3}\.?\d{3}-?\d{2}">
+              <span class="mensagem-erro"></span>
+            </div>
+
+            <div id="idade1" class="grupo">
+              <label for="aniversario"></label>
+              <input name="aniversario" type="date" id="idade" required  placeholder="Aniversário" class="campo">
+              <span class="mensagem-erro"></span>
+            </div>
+
+          </div>
+          <div class="envio-botao">
+            <input class="envio" id="enviar" checked type="submit" value="Enviar">
+            </div>
+        </form>
+    </section>
+  </main>
+  
+  <footer class="rodape">
+    <div>
+      <p> Site criado por Cecília</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

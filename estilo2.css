@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Mukta:wght@300&family=Poppins:wght@500&display=swap');
+
+
+
+.container2{
+    background-color: black;
+    width: 67%;
+    margin: 0 auto;
+    border-radius: 10px;
+    height: 10px;
+    
+}
+
+.lista-nao-ordenada{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.horario {
+    font-family: 'Mukta', sans-serif;
+    letter-spacing: 3px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.paragrafo-horario{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+li {
+    margin: 30px 25px 25px 25px; /*cima direita embaixo e esquerda*/
+    border-radius: 20px;
+    border-style: solid;
+    border-color: black;
+    padding: 30px 30px 70px 30px;
+}
+
+img {
+    width: 100px;
+    height: 80px;
+    border-radius: 15px;
+    margin-top: 7px;
+}
