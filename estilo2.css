@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Mukta:wght@300&family=Poppins:wght@500&display=swap');
 
 
-
+:root{
+    --nao-branco: rgb(208, 208, 208);
+}
 .container2{
     background-color: black;
     width: 67%;
@@ -36,7 +38,7 @@ li {
     border-radius: 20px;
     border-style: solid;
     border-color: black;
-    padding: 30px 30px 70px 30px;
+    padding: 30px 40px 70px 40px;
 }
 
 img {
@@ -44,4 +46,10 @@ img {
     height: 80px;
     border-radius: 15px;
     margin-top: 7px;
+}
+
+li:hover {
+    padding: 30px 50px 70px 50px;
+    background-color: var(--nao-branco);
+    margin: 30px 35px 15px 35px;
 }
