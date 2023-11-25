@@ -39,6 +39,7 @@ li {
     border-style: solid;
     border-color: black;
     padding: 30px 40px 70px 40px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
 img {
@@ -52,4 +53,5 @@ li:hover {
     padding: 30px 50px 70px 50px;
     background-color: var(--nao-branco);
     margin: 30px 35px 15px 35px;
+    transition: 0.5s;
 }
